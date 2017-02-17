@@ -1,0 +1,1 @@
+![Screenshot](https://github.com/Sandesh-bn/Minimalist-Bucketlist-App/blob/master/app_screenshot.gif)

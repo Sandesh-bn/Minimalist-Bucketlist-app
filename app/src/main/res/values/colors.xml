@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="purple">#B691FF</color>
+    <color name="green">#05FFCA</color>
+    <color name="dark_blue">#241543</color>
+    <color name="toolbar_color">#241543</color>
+    <color name="bg_dialog">#E30D0028</color>
+    <color name="bg_row_drop_dark">#C98E79BB</color>
+    <color name="bg_row_drop_light">#4A8E79BB</color>
+    <color name="bg_drop_complete">#ED8E79BB</color>
+    -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="purple">#91ffa5</color>
+    <color name="green">#05FFCA</color>
+    <color name="dark_blue">#1fb729</color>
+    <color name="toolbar_color">#0a0a0a</color>
+    <color name="bg_dialog">#e302a01d</color>
+    <color name="bg_row_drop_dark">#c979bb7c</color>
+    <color name="bg_row_drop_light">#4a84bb79</color>
+    <color name="bg_drop_complete">#ed7cbb79</color>
+</resources>

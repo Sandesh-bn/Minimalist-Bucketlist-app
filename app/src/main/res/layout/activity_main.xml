@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sandesh.com.bucketlist.ActivityMain">
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <sandesh.com.bucketlist.BucketRecyclerView
+        android:id="@+id/rv_drops"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar" />
+
+    <include
+        android:id="@+id/empty_drops"
+        layout="@layout/empty_drops" />
+</RelativeLayout>
+
+
+    <!--
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="bottom"
+                android:text="one"
+                android:gravity="bottom|right"
+                android:layout_width="120dp"
+                android:layout_height="126dp"
+                android:background="#ff0"/>
+            <TextView
+                android:text="two"
+                android:layout_gravity="bottom"
+                android:gravity="bottom|left"
+                android:layout_width="120dp"
+                android:layout_height="126dp"
+                android:background="#f0f"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:text="three"
+                android:gravity="right"
+                android:layout_width="120dp"
+                android:layout_height="126dp"
+                android:background="#0f0"/>
+            <TextView
+                android:text="four"
+                android:layout_width="120dp"
+                android:layout_height="126dp"
+                android:background="#f00"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    -->
